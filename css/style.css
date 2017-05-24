@@ -424,6 +424,7 @@ header.hero {
 
 /* line 405, C:/Users/Mos/Desktop/ntc/css/style.scss */
 #staff {
+  display: none;
   background-color: #00bfff; }
   /* line 407, C:/Users/Mos/Desktop/ntc/css/style.scss */
   #staff .wrapper {
@@ -444,6 +445,7 @@ header.hero {
 
 /* line 425, C:/Users/Mos/Desktop/ntc/css/style.scss */
 #testimonials {
+  display: none;
   background-color: #cd5c5c; }
   /* line 427, C:/Users/Mos/Desktop/ntc/css/style.scss */
   #testimonials .wrapper {
