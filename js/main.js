@@ -115,20 +115,20 @@ function contact(e) {
 //  $('span').text(pageYOffset)
 //})
 
-$('#training-programs').click(()=> {
-  alert('jquery click!')
-})
+// $('#training-programs').click(()=> {
+//   alert('jquery click!')
+// })
 
-var app = new Vue({
-  el: ".vue",
-  data: {
-    msg: 'Lol?',
-    json: 'Loading...'
-  },
-  created: function() {
-    var self = this
-    // $.getJSON('http://newtrainers.center/db/data.json', function(data) {
-    //   self.json = JSON.stringify(data);
-    // })
-  }
-})
+// var app = new Vue({
+//   el: ".vue",
+//   data: {
+//     msg: 'Lol?',
+//     json: 'Loading...'
+//   },
+//   created: function() {
+//     var self = this
+//     // $.getJSON('http://newtrainers.center/db/data.json', function(data) {
+//     //   self.json = JSON.stringify(data);
+//     // })
+//   }
+// })
