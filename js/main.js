@@ -1,10 +1,10 @@
 var lastScrollOffset = 0;
 
 var navbar = $('.navbar'),
-    hero = $('.hero'),
-    heroH = hero.height(),
-    navH = navbar.height(),
-    mobile = $(window).width() <= 723;
+  hero = $('.hero'),
+  heroH = hero.height(),
+  navH = navbar.height(),
+  mobile = $(window).width() <= 723;
 
 $(window).resize(()=>{
   mobile = $(window).width() <= 723;
@@ -99,6 +99,10 @@ function contact(e) {
   alert('عذراُ, لا يمكننا استلام رسالتك الآن!');
 }
 
+$.getJSON('./db/data.json', function(data) {
+  console.log(JSON.stringify(data))
+})
+
 //$('<span>').text('resolution').css({color: '#fff', position: 'fixed', top: 0}).appendTo('body')
 
 
@@ -124,11 +128,5 @@ function contact(e) {
 //   data: {
 //     msg: 'Lol?',
 //     json: 'Loading...'
-//   },
-//   created: function() {
-//     var self = this
-//     // $.getJSON('http://newtrainers.center/db/data.json', function(data) {
-//     //   self.json = JSON.stringify(data);
-//     // })
 //   }
 // })
