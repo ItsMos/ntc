@@ -99,9 +99,9 @@ function contact(e) {
   alert('عذراُ, لا يمكننا استلام رسالتك الآن!');
 }
 
-$.getJSON('./db/data.json', function(data) {
-  console.log(JSON.stringify(data))
-})
+//$.getJSON('./db/data.json', function(data) {
+//  console.log(JSON.stringify(data))
+//})
 
 //$('<span>').text('resolution').css({color: '#fff', position: 'fixed', top: 0}).appendTo('body')
 
@@ -130,3 +130,40 @@ $.getJSON('./db/data.json', function(data) {
 //     json: 'Loading...'
 //   }
 // })
+
+function showModal(modal) {
+  modal.fadeIn('100')
+    .find('.modal-dialog')
+    .removeClass('fadeOutUp')
+    .addClass('fadeInDown')
+}
+function hideModal(modal) {
+  modal.fadeOut('100')
+    .find('.modal-dialog')
+    .removeClass('fadeInDown')
+    .addClass('fadeOutUp')
+}
+
+$('.modal').click(function(event){
+  if (event.target !== this)
+    return;
+  hideModal($(this));
+}).find('.close').click(function() {
+  hideModal($(this).parents('.modal'));
+});
+
+var hash = window.location.hash.replace('#', '');
+$('.modal').each(function() {
+  var self = $(this)
+  var target = $(this).attr('id');
+  if (target == hash) {
+    showModal($(this));
+  }
+  $('[data-target]').each(function() {
+    if ($(this).attr('data-target') == target)
+      $(this).click(function() {
+        showModal(self);
+      });
+  });
+});
+
