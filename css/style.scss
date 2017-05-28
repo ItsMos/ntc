@@ -575,7 +575,6 @@ footer {
   p {font-size: .7em}
 }
 .modal-dialog {
-//  max-height: 60%;
   position: relative;
   overflow: hidden;
   background: #f8f8f8;
@@ -602,7 +601,7 @@ footer {
     height: 52%;
     overflow-y: auto;
 	  padding: 0 20px 20px;
-    ul,ol {
+    ul, ol {
       font-size: 0.7em;
       padding: 0 30px;
     }
