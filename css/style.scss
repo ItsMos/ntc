@@ -67,7 +67,7 @@ header.hero {
     width: 150px;
     float: right;
   }
-  h1,h2 {font-size: 1.5em}
+  h1,h2 {transform: translateY(20px);font-size: 1.5em}
   h1 {margin-bottom: -20px}
   cursor: pointer;
 }
@@ -125,7 +125,7 @@ header.hero {
     justify-content: center;
   }
   .brand {
-    background-image: url(../img/logoColored.svg);
+    background-image: url(../img/logo.svg);
     background-repeat: no-repeat;
     background-size: 25%;
     background-position: 80% center;
