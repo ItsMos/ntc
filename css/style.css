@@ -324,7 +324,7 @@ header.hero {
     background-color: rgba(139, 0, 0, 0.7);
     font-size: .75em;
     width: 75%;
-    padding: 10 25px;
+    padding: 10px 25px;
     margin-right: 20px;
     border-radius: 6px;
     position: relative;
@@ -368,7 +368,7 @@ header.hero {
   flex-wrap: wrap; }
   /* line 340, M:/Web/ntc/css/style.scss */
   #calender .wrapper > .event {
-    background-color: 2a579b;
+    background-color: #2a579b;
     overflow: hidden;
     position: relative;
     padding: 5px 15px;
@@ -378,7 +378,7 @@ header.hero {
     cursor: pointer; }
     /* line 344, M:/Web/ntc/css/style.scss */
     #calender .wrapper > .event:nth-child(even) {
-      background-color: 666465; }
+      background-color: #666465; }
     /* line 355, M:/Web/ntc/css/style.scss */
     #calender .wrapper > .event .front, #calender .wrapper > .event .back {
       height: 100%;

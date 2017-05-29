@@ -288,7 +288,7 @@ header.hero {
     background-color: rgba(139,0,0,.7);
     font-size: .75em;
     width: 75%;
-    padding: 10 25px;
+    padding: 10px 25px;
     margin-right: 20px;
     border-radius: 6px;
     position: relative;
@@ -338,13 +338,13 @@ header.hero {
     flex-wrap: wrap;
     
     & > .event {
-      background-color: 2a579b;
+      background-color: #2a579b;
       overflow: hidden;
       position: relative;
       &:nth-child(even) {
 //        background-color: 64bd6b;
 //        background-color: 00abe3;
-        background-color: 666465;
+        background-color: #666465;
       }
       padding: 5px 15px;
       margin: 10px 5px;
