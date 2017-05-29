@@ -369,7 +369,7 @@ header.hero {
       .front {
         .details {
 	        position: absolute;
-          bottom: 5;
+          bottom: 5px;
           & > span {
             display: block;
             font-size: .6em;
@@ -580,11 +580,12 @@ footer {
   background: #f8f8f8;
   color: #000;
   width: 70%;
+  height: 60%;
   right: 15%;
   top: 20%;
   border-radius: 3px;
   .modal-header {
-    padding: 5px 20px 0 0;
+    padding-right: 20px;
     border-bottom: 1px solid rgba(0,0,0,.3);
     h1 {display: inline-block;}
     .close {
@@ -593,12 +594,12 @@ footer {
       color: #000;
       opacity: .2;
       border: 0;
-      margin-top: 5px;
       &:hover {opacity: .5}
     }
   }
   .modal-body {
-    height: 52%;
+    height: 85%;
+    width: 100%;
     overflow-y: auto;
 	  padding: 0 20px 20px;
     ul, ol {

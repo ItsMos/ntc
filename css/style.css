@@ -393,7 +393,7 @@ header.hero {
     /* line 370, M:/Web/ntc/css/style.scss */
     #calender .wrapper > .event .front .details {
       position: absolute;
-      bottom: 5; }
+      bottom: 5px; }
       /* line 373, M:/Web/ntc/css/style.scss */
       #calender .wrapper > .event .front .details > span {
         display: block;
@@ -611,40 +611,41 @@ footer {
   background: #f8f8f8;
   color: #000;
   width: 70%;
+  height: 60%;
   right: 15%;
   top: 20%;
   border-radius: 3px; }
-  /* line 586, M:/Web/ntc/css/style.scss */
+  /* line 587, M:/Web/ntc/css/style.scss */
   .modal-dialog .modal-header {
-    padding: 5px 20px 0 0;
+    padding-right: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
-    /* line 589, M:/Web/ntc/css/style.scss */
+    /* line 590, M:/Web/ntc/css/style.scss */
     .modal-dialog .modal-header h1 {
       display: inline-block; }
-    /* line 590, M:/Web/ntc/css/style.scss */
+    /* line 591, M:/Web/ntc/css/style.scss */
     .modal-dialog .modal-header .close {
       float: left;
       background: 0;
       color: #000;
       opacity: .2;
-      border: 0;
-      margin-top: 5px; }
+      border: 0; }
       /* line 597, M:/Web/ntc/css/style.scss */
       .modal-dialog .modal-header .close:hover {
         opacity: .5; }
   /* line 600, M:/Web/ntc/css/style.scss */
   .modal-dialog .modal-body {
-    height: 52%;
+    height: 85%;
+    width: 100%;
     overflow-y: auto;
     padding: 0 20px 20px; }
-    /* line 604, M:/Web/ntc/css/style.scss */
+    /* line 605, M:/Web/ntc/css/style.scss */
     .modal-dialog .modal-body ul, .modal-dialog .modal-body ol {
       font-size: 0.7em;
       padding: 0 30px; }
-    /* line 608, M:/Web/ntc/css/style.scss */
+    /* line 609, M:/Web/ntc/css/style.scss */
     .modal-dialog .modal-body ol {
       list-style: decimal; }
-    /* line 609, M:/Web/ntc/css/style.scss */
+    /* line 610, M:/Web/ntc/css/style.scss */
     .modal-dialog .modal-body ul {
       list-style: disc; }
 
