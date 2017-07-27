@@ -184,10 +184,16 @@ header.hero {
     p {margin-top: 20px;margin-bottom: 20px;}
     font-size: .8em;
     .logo {
+      margin-top: 10vh;
       h1 {font-size: 1em}
       img {width: 90px}
+      margin: 10vh auto 0 auto;
+    }
+    .ametrac {
+	    margin: 10px auto;
     }
   }
+  
   
   .navbar {
     a {
